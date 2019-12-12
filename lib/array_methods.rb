@@ -1,14 +1,14 @@
-
-
 # takes in an array and a value and returns the index of that value:
 #return the index of the value
 #if the value is not found, return nil
 #loop over the array and compare each value in the array to the value provided(this is not the value to be provided)
 
+length = array.length
+
 def find_element_index(array, value_to_find)
-  if value_to_find
+  length.times do
   
-  return value_to_find.index
+  return array.index
 end
 
 

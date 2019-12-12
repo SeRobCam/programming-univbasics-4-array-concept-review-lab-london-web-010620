@@ -3,8 +3,6 @@
 #if the value is not found, return nil
 #loop over the array and compare each value in the array to the value provided(this is not the value to be provided)
 
-length = array.length
-
 def find_element_index(array, value_to_find)
   count = 0 
   while count < array.length do

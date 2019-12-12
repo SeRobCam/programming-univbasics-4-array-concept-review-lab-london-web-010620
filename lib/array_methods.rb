@@ -9,7 +9,7 @@ def find_element_index(array, value_to_find)
     array.index(value_to_find)
     count += 1
   end   
-  return array.index
+  nil
 end
 
 
